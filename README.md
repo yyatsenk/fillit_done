@@ -18,6 +18,7 @@ $> cat sample.fillit | cat -e
 .#..$
 
 $
+
 ....$
 
 ####$
@@ -45,6 +46,7 @@ $
 ....$
 
 $> ./fillit sample.fillit | cat -e
+
 DDAA$
 
 CDDA$
@@ -52,6 +54,7 @@ CDDA$
 CCCA$
 
 BBBB$
+
 $>
 
 Another example :
@@ -67,6 +70,7 @@ $> cat sample.fillit | cat -e
 ....$
 
 $
+
 ....$
 
 ...$
@@ -78,4 +82,5 @@ $
 $> ./fillit sample.fillit | cat -e
 
 error$
+
 $>
