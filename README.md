@@ -30,8 +30,11 @@ $
 
 $> ./fillit sample.fillit | cat -e
 DDAA$
+
 CDDA$
+
 CCCA$
+
 BBBB$
 $>
 
