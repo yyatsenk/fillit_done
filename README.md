@@ -8,24 +8,40 @@ output followed by a newline and have to exit properly.
 Example :
 
 $> cat sample.fillit | cat -e
+
 ....$
+
 ##..$
+
 .#..$
+
 .#..$
+
 $
 ....$
+
 ####$
+
 ....$
+
 ....$
+
 $
 #...$
+
 ###.$
+
 ....$
+
 ....$
+
 $
 ....$
+
 ##..$
+
 .##.$
+
 ....$
 
 $> ./fillit sample.fillit | cat -e
@@ -39,16 +55,27 @@ BBBB$
 $>
 
 Another example :
+
 $> cat sample.fillit | cat -e
+
 ....$
+
 ....$
+
 ####$
+
 ....$
+
 $
 ....$
+
 ...$
+
 ..##$
+
 ..##$
+
 $> ./fillit sample.fillit | cat -e
+
 error$
 $>
