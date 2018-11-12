@@ -6,6 +6,7 @@ If the file contains at least one error, your program must display error on the 
 output followed by a newline and have to exit properly.
 
 Example :
+
 $> cat sample.fillit | cat -e
 ....$
 ##..$
@@ -26,12 +27,14 @@ $
 ##..$
 .##.$
 ....$
+
 $> ./fillit sample.fillit | cat -e
 DDAA$
 CDDA$
 CCCA$
 BBBB$
 $>
+
 Another example :
 $> cat sample.fillit | cat -e
 ....$
